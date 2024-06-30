@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Scheduler For Personal Tasks</string>
+    <!--stringhe per il bottom nav nella main actiity-->
+    <string name="title_home">Home</string>
+    <string name="title_eventi">Eventi</string>
+    <string name="title_notifiche">Notifiche</string>
+    <string name="title_statistiche">Statistiche</string>
+</resources>

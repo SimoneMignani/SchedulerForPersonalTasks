@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--EVENTO CHE VIENE VISUALIZZATO NELLA LISTVIEW DI "fragment_eventi"-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvtit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="7dp"
+        android:text="Titolo:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/titoloViewed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@+id/tvtit"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvdat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtit"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Data:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/dataViewed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titoloViewed"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/tvdat"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="31dp"
+        android:layout_toEndOf="@+id/dataViewed"
+        android:text="Orario:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/oraViewed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="31dp"
+        android:layout_toEndOf="@+id/tvora"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvpri"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_below="@+id/tvdat"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Priorità:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/prioritaViewed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dataViewed"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/tvpri"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/tvcla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvora"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/prioritaViewed"
+        android:text="Classe:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/classeViewed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oraViewed"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/tvcla"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/buttonModifica"
+        android:layout_width="60dp"
+        android:layout_height="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="modifica"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/buttonElimina"
+        android:layout_width="60dp"
+        android:layout_height="22dp"
+        android:layout_below="@+id/buttonModifica"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:color/holo_red_light"
+        android:text="elimina"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_inattesa"
+        android:icon="@drawable/ic_access_time_black_24dp"
+        android:title="In attesa" />
+    <item
+        android:id="@+id/navigation_incorso"
+        android:icon="@drawable/ic_trending_up_black_24dp"
+        android:title="In corso" />
+    <item
+        android:id="@+id/navigation_completati"
+        android:icon="@drawable/ic_check_black_24dp"
+        android:title="Completati" />
+</menu>

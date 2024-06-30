@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--EVENTO CHE VIENE VISUALIZZATO NELLA LISTVIEW DI "fragment_eventi"-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvtitNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="7dp"
+        android:text="Titolo:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/titoloViewedNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@+id/tvtitNot"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvdatNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtitNot"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Data:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/dataViewedNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titoloViewedNot"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/tvdatNot"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvoraNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="31dp"
+        android:layout_toEndOf="@+id/dataViewedNot"
+        android:text="Orario:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/oraViewedNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="31dp"
+        android:layout_toEndOf="@+id/tvoraNot"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvpriNot"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_below="@+id/tvdatNot"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Priorità:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/prioritaViewedNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dataViewedNot"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/tvpriNot"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/tvclaNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvoraNot"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/prioritaViewedNot"
+        android:text="Classe:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/classeViewedNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oraViewedNot"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/tvclaNot"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewOrdine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="28dp"
+        android:text="Passa a:"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/buttonCambiaStato"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/textViewOrdine"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="17dp"
+        android:background="@color/colorPrimary"
+        android:text="in corso"
+        android:textColor="@android:color/white"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/tvstaNot"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="85dp"
+        android:text="Stato:"
+        android:textColor="#010DA0" />
+
+    <TextView
+        android:id="@+id/statoViewedNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="85dp"
+        android:layout_toEndOf="@+id/tvstaNot"
+        android:text="TextView"
+        android:textColor="@color/colorPrimary" />
+
+
+</RelativeLayout>
